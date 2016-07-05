@@ -116,7 +116,7 @@ function processMessage($message) {
   // process incoming message
   $boolean = file_get_contents('booleans.txt');
   $booleans= explode("\n",$boolean);
-  $admin = **104835951
+  $admin =104835951
 **;
   $message_id = $message['message_id'];
   $rpto = $message['reply_to_message']['forward_from']['id'];
